@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <!-- Logo -->
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="http://placehold.it/111x24" width="111" height="24" alt="«Бородинский»">
+        </a>
+      </div>
+      <!-- /Logo -->
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <ul>
+          <li class="main-nav__item"><a href="#">Информация</a></li>
+          <li class="main-nav__item"><a href="#">Новости</a></li>
+          <li class="main-nav__item"><a href="price-list.html">Прайс-лист</a></li>
+          <li class="main-nav__item main-nav__item_active"><a>Магазин</a></li>
+          <li class="main-nav__item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <!-- /Navigation -->
+      <!-- User Block -->
+      <div class="user-block">
+        <a class="user-block__btn" href="login.html">Вход</a>
+      </div>
+      <!-- /User Block -->
+    </div>
+  </header>
+  <!-- Inner Content -->
+  <main class="inner-page">
+    <!-- Container -->
+    <div class="container">
+      <h1>Средства для ухода</h1>
+      <!-- Bread Crumbs -->
+      <div class="bread-crumbs">
+        <a href="index.html">Главная</a>
+        <a>Магазин</a>
+        <a>Средства для ухода</a>
+      </div>
+      <!-- /Bread Crumbs -->
+      <!-- Inner Page Column Left -->
+      <aside class="inner-page__left inner-page__left_catalog">
+        <!-- Search Filter -->
+        <form class="search-filter" action="url" method="post">
+          <fieldset>
+            <legend>Производители:</legend>
+            <label><input type="checkbox" checked> Baxter of California</label>
+            <label><input type="checkbox"> Mr Natty</label>
+            <label><input type="checkbox" checked> Suavecito</label>
+            <label><input type="checkbox"> Malin+Goetz</label>
+            <label><input type="checkbox"> Murray’s</label>
+            <label><input type="checkbox" checked> American Crew</label>
+          </fieldset>
+          <fieldset>
+            <legend>Группы товаров:</legend>
+            <label><input type="radio"> Бритвенные принадлежности</label>
+            <label><input type="radio" checked> Средства для ухода</label>
+            <label><input type="radio"> Аксессуары</label>
+          </fieldset>
+          <button class="btn" type="submit">Показать</button>
+        </form>
+        <!-- /Search Filter -->
+      </aside>
+      <!-- /Inner Page Column Left -->
+      <!-- Inner Page Column Right -->
+      <div class="inner-page__right inner-page__right_catalog">
+        <!-- Catalog -->
+        <div class="catalog">
+          <article class="catalog-item">
+            <a href="baxter-of-california.html"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+            <a href="baxter-of-california.html"><h1>Набор для путешествий «Baxter of California»</h1></a>
+            <div class="price-info">
+            <span class="price-info__price">2 900 руб.</span>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+            <a href="#"><h1>Увлажняющий кондиционер «Baxter of California»</h1></a>
+            <div class="price-info">
+              <span class="price-info__price">750 руб.</span>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+            <a href="#"><h1>Гель для волос «SUAVECITO»</h1></a>
+            <div class="price-info">
+              <span class="price-info__price">290 руб.</span>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+            <a href="#"><h1>Глина для укладки волос «American crew»</h1></a>
+            <div class="price-info">
+              <span class="price-info__price">500 руб.</span>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+            <a href="#"><h1>Гель для волос «AMERICAN CREW»</h1></a>
+            <div class="price-info">
+              <span class="price-info__price">300 руб.</span>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+            <a href="#"><h1>Набор для бритья «Baxter of California»</h1></a>
+            <div class="price-info">
+              <span class="price-info__price">3 900 руб.</span>
+              <a href="#" class="btn">Купить</a>
+            </div>
+          </article>
+        </div>
+        <!-- /Catalog -->
+        <!-- Paginator -->
+        <section class="paginator">
+          <a class="paginator__item" href="#">1</a>
+          <a class="paginator__item paginator__item_active">2</a>
+          <a class="paginator__item" href="#">3</a>
+          <a class="paginator__item" href="#">4</a>
+        </section>
+        <!-- /Paginator -->
+      </div>
+      <!-- /Inner Page Column Right -->
+    </div>
+    <!-- /Container -->
+  </main>
+  <!-- /Inner Content -->
+  <footer class="page-footer">
+    <div class="container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <p>
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Москва, ул. Собаки Павлова, д. 13<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (495) 666-02-666
+        </p>
+      </div>
+      <!-- /Contact Info -->
+      <!-- Social Links -->
+      <div class="social">
+        <p>Давайте дружить!</p>
+        <a class="social-btn social-btn_vk" href="#">vk.com</a>
+        <a class="social-btn social-btn_fb" href="#">facebook.com</a>
+        <a class="social-btn social-btn_inst" href="#">instagram.com</a>
+      </div>
+      <!-- /Social Links -->
+      <!-- Copyright -->
+      <div class="copyright">
+        <p>Разработано:</p>
+        <a class="btn" href="#">htmlacademy.ru</a>
+      </div>
+      <!-- /Copyright -->
+    </div>
+  </footer>
+</body>
+</html>
